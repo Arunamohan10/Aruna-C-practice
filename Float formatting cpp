@@ -1,0 +1,13 @@
+#include<iostream>
+
+using namespace std;
+int main()
+{
+    float f;
+    cin >> f;
+    printf("%f",f);
+    printf("\n%.3f",f);
+    printf("\n%.2f",f);
+    printf("\n%.1f",f);
+    return 0;
+}
