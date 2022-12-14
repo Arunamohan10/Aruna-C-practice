@@ -1,0 +1,21 @@
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+int main()
+{
+    float p,rof,years,interest,amount,discount,f,d;
+    cin >> p ;
+    cin >> rof;
+    cin >> years;
+    discount = 2;
+    interest = (p*rof*years)/100;
+    printf("%.2f",interest);
+    amount = p + interest;
+    printf("\n%.2f\n",amount);
+    d = discount/100*interest;
+    printf("%.2f",d);
+    f = amount - d ;
+    printf("\n%.2f",f);
+    return 0;  
+}
