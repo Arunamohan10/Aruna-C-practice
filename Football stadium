@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int one,two,len,w,x2,y2,z;
+    cin >> one >> two >> len;
+    w = (one+len);
+    x2 = (two+len);
+    y2 = (w+one)/2;
+    z = (x2+two)/2;
+    cout << y2 << " " << z;
+    return 0;
+    
+}
