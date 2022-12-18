@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    string name;
+    int no,amt,rem,t_amt,rem_no;
+    cin >> name;
+    cin >> no >> amt >> rem;
+    t_amt = amt*rem;
+    rem_no = no-rem;
+    if(no==0)
+    {
+        cout << "Out of stock";
+    }
+    else if(no>rem_no)
+    {
+        cout << "Amount for " << rem << " " << name << " is " << t_amt << endl;
+        cout << "Remaining number of pencil present in stock is " << rem_no;
+    }
+    else 
+    {
+        cout << "Only " << rem_no << name << " are available";
+    }
+    return 0;
+    
+}
