@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float chalk,one,count=0;
+    int n1=1,days,two;
+    cin >> chalk;
+    one=1/sqrt(chalk);
+    for(int i=0;i<chalk;i++)
+    {
+        count+=one;
+        days=count;
+        two=chalk+days;
+    }
+    cout << two+1;
+}
