@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,s1,s2,finn,stone,ref,ref2,pirate;
+    cin >> n >> s1 >> s2;
+    finn = (s1*n)/100;
+    cout << finn << endl;
+    ref = n-finn;
+    stone = (s2*ref)/100;
+    cout << stone << endl;
+    ref2 = n-(finn+stone);
+    pirate = ref2/3;
+    cout << pirate;
+    return 0;
+    
+}
