@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int boat,adult,child,result,one,two,sum=0;
+    cin >> boat >> adult >> child;
+    one = 75*adult;
+    two = 50*child;
+    sum = one+two;
+    if(boat>=sum)
+    {
+        cout << "Boat is stable";
+    }
+    else
+    {
+        cout << "Boat will drown";
+    }
+    return 0;
+}
