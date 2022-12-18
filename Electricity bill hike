@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int unit_consumed,bill_amt;
+    cin >> unit_consumed;
+    if(unit_consumed<=200)
+    {
+        bill_amt=unit_consumed*0.5;
+        cout << "Rs." << bill_amt;
+    }
+    else if(unit_consumed>200 && unit_consumed<=400)
+    {
+        bill_amt=(unnit_consumed*0.65)+100+1;
+        cout << "Rs." << bill;
+    }
+    else if(unit_consumed>400 && unit_consumed<=600)
+    {
+        bill_amt=(unit_consumed*0.80)+200+1;
+        cout << "Rs." << bill_amt;
+    }
+    else 
+    {
+        bill_amt=(unit_consumed*1.25)+425;
+        cout << "Rs." << bill_amt;
+    }
+    return 0;
+}
+    
+    
+
