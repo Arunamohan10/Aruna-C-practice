@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,one,two,e,f,g;
+    cin >> a >> b >> c >> d;
+    one=a+c;
+    two=b+d;
+    if(two>99)
+    {
+        f=two/100;
+        e=two%100;
+    }
+    else
+    {
+        e=b+d;
+    }
+    cout << one+f << endl << e;
+    return 0;
+}
